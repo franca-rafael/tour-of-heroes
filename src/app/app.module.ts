@@ -12,6 +12,8 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatListModule } from '@angular/material/list';
+import { MatIconModule } from '@angular/material/icon';
+import { MatTooltipModule } from '@angular/material/tooltip';
 import { MessagesComponent } from './messages/messages.component';
 
 @NgModule({
@@ -31,6 +33,8 @@ import { MessagesComponent } from './messages/messages.component';
     MatExpansionModule,
     MatDividerModule,
     MatListModule,
+    MatIconModule,
+    MatTooltipModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
