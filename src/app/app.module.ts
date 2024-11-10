@@ -14,7 +14,9 @@ import { MatDividerModule } from '@angular/material/divider';
 import { MatListModule } from '@angular/material/list';
 import { MatIconModule } from '@angular/material/icon';
 import { MatTooltipModule } from '@angular/material/tooltip';
+import { MatCardModule } from '@angular/material/card';
 import { MessagesComponent } from './messages/messages.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +24,7 @@ import { MessagesComponent } from './messages/messages.component';
     HeroesComponent,
     HeroDetailComponent,
     MessagesComponent,
+    DashboardComponent,
   ],
   imports: [
     BrowserModule,
@@ -35,6 +38,7 @@ import { MessagesComponent } from './messages/messages.component';
     MatListModule,
     MatIconModule,
     MatTooltipModule,
+    MatCardModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
